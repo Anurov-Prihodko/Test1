@@ -2,14 +2,13 @@
   "name": "test1",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html",                                                                     
-    "build": "parcel build src/index.html"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Anurov-Prihodko/Test1.git"
+    "url": "git+https://github.com/Anurov-Prihodko/test1.git"
   },
   "keywords": [],
   "author": "",
@@ -17,13 +16,5 @@
   "bugs": {
     "url": "https://github.com/Anurov-Prihodko/Test1/issues"
   },
-  "homepage": "https://github.com/Anurov-Prihodko/Test1#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "joi": "^17.4.0",
-    "shortid": "^2.2.16"
-  },
-  "devDependencies": {
-    "parcel-bundler": "^1.12.5"
-  }
+  "homepage": "https://github.com/Anurov-Prihodko/Test1#readme"
 }
