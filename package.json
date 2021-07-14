@@ -1,0 +1,34 @@
+{
+  "name": "first_webpack",
+  "version": "1.0.0",
+  "description": "my webpack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anurov-Prihodko/test1.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "webpack"
+  ],
+  "author": "Anurov-Prykhodko Oleksii <anyrov.prihodko@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anurov-Prihodko/test1/issues"
+  },
+  "homepage": "https://github.com/Anurov-Prihodko/test1#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^5.2.7",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "style-loader": "^3.1.0",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
