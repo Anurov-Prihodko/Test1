@@ -1,24 +1,26 @@
+import * as $ from 'jquery'
+
 function createAnalytics() {
-    let counter = 0
-    let destroyed = false
+  let counter = 0
+  let destroyed = false
 
-    const listener = () => counter += 1
+  const listener = () => (counter += 1)
 
-    document.addEventListener('click', listener);
+  $(document).on('click', listener)
 
-    return {
-        destroy() {
-            document.removeEventListener('click', listener)
-            destroyed = true
-        },
+  return {
+    destroy() {
+      $(document).off('click', listener)
+      destroyed = true
+    },
 
-        getClicks() {
-            if (destroyed) {
-                return `Analytics is destroyed. Total clics ${counter}`
-            }
-            return counter
-        }
-    }
+    getClicks() {
+      if (destroyed) {
+        return `Analytics is destroyed. Total clics ${counter}`
+      }
+      return counter
+    },
+  }
 }
 
 window.analytics = createAnalytics()
