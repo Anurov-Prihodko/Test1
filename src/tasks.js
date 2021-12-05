@@ -10,9 +10,9 @@ for (; z < 10; z += 1);
 // console.log(z)
 
 // ====== TASK 2 ======
-const arr = [1, 2, 3]
+// const arr = [1, 2, 3]
 
-for (i = 0; i < arr.length; arr[i++] = 0);
+// for (i = 0; i < arr.length; arr[i++] = 0);
 // arr[0] = 0
 // arr[1] = 0
 // arr[2] = 0

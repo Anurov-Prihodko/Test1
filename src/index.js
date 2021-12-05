@@ -1,19 +1,36 @@
-import * as $ from 'jquery'
-import Post from './models/post'
-// import json from './assets/json'
-// import xml from './assets/data.xml'
-// ======== возможно для работы с файлами csv
-// нужно будет установить npm install papaparse ========
-// import csv from './assets/data.csv'
-import WebpackLogo from './assets/webpack-logo.png'
-import './styles/styles.css'
+// var People = [
+//   [1, [2, [{ a: 1 }, 3]]],
+//   ['Rustam', 25, 3, 4],
+//   ['Ruslan', 35],
+//   ['Aleksey', 29],
+//   ['Vovan', 23],
+// ]
 
-const post = new Post('This a webpack Post title', WebpackLogo)
+// Array.prototype.max = function () {
+//   return Math.max.apply(null, this)
+// }
 
-$('pre').addClass('code').html(post.toString())
+// function f1(item, level = 0) {
+//   if (item instanceof Array || item instanceof Object) {
+//     return (
+//       item
+//         .map(function (value, index) {
+//           return f1(value, level + 1)
+//         })
+//         .max() - (level > 0 ? 0 : 1)
+//     ) // Если главный массив не считаем
+//   }
+//   return level
+// }
 
-// console.log('Post to string:', post.toString())
+// console.log(f1(People))
 
-// console.log('JSON:', json)
-// console.log('XML:', xml)
-// console.log('CSV:', csv)
+// var a = { 1: 2, 3: 4 },
+//   count = 0,
+//   item
+
+// for (item in a) {
+//   count++
+// }
+
+console.log(50 / 'Apple')
